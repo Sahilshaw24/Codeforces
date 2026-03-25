@@ -17,5 +17,4 @@ int main(){
         if(ans.size() != s.size()) ans = ans + "+";
     }
     cout << ans;
-    return 0;
 }
