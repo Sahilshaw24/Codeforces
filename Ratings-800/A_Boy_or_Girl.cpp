@@ -6,7 +6,7 @@ int main(){
     cin >> s;
     set<int> st;
     for(auto it : s){
-        stt.insert(it);
+        st.insert(it);
     }
     if((st.size()) % 2 == 0) cout << "CHAT WITH HER!";
     else cout << "IGNORE HIM!";
