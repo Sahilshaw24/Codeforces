@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     string s;
     cin >> s;
-    set<int> st;
+    set<char> st;
     for(auto it : s){
         st.insert(it);
     }
