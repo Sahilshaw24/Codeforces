@@ -11,11 +11,9 @@ int main(){
         }
     }
     sort(s2.begin(),s2.end());
-    string ans;
-    for(char c : s2){
-        ans = ans + c;
-        if(ans.size() != s.size()) ans = ans + "+";
+    for(int i=0;i<s2.size();i++){
+        cout << s2[i];
+        if(i != s.size()-1)  cout << "+";
     }
-    cout << ans;
     return 0;
 }
