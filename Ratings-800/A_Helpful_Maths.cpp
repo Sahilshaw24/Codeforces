@@ -13,7 +13,7 @@ int main(){
     sort(s2.begin(),s2.end());
     for(int i=0;i<s2.size();i++){
         cout << s2[i];
-        if(i != s.size()-1)  cout << "+";
+        if(i != s2.size()-1)  cout << "+";
     }
     return 0;
 }
