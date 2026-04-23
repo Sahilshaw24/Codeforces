@@ -26,6 +26,6 @@ int main() {
         else break;
     }
     
-    cout << diffPair << " " << samePair << endl;
+    cout << diffPair << " " << samePair;
     return 0;
 }
